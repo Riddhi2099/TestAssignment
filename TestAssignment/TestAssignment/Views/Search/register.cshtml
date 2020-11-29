@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "register";
+}
+
+<h2>register</h2>
+
+<h2>Assign Course to Student</h2>
+
+<table>
+    <tr>
+
+        <td>
+            Select StudentId
+        </td>
+        <td>
+            @Html.DropDownList("StudentRowId")
+        </td>
+        <td>
+            Select CourseName
+        </td>
+        <td>
+            @Html.DropDownList("CourseRowId")
+        </td>
+        <br/>
+        <td>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Assign Course" class="btn btn-default" />
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    
+</table>
